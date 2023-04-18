@@ -3,16 +3,16 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define pi = Character("Pious Man")
-define aas = Character("Assassin")
-define nar = Character("Narrator")
+define piousman = Character("Pious Man")
+define assassin = Character("Assassin")
+define narrator = Character("Narrator")
 
 image bgMosque = "mosque.jpg"
 image bgOutside = "outside.jpg"
 image black = "black.jpg"
 
-image ipi = "piousman.jpg"
-image iaas = "assassin.jpg"
+image imagePiousman = "piousman.jpg"
+image imageAssassin = "assassin.jpg"
 # image cityInFlames = "cityInFlames.jpg"
 
 
@@ -38,62 +38,62 @@ label start:
     
     show bgOutside
     
-    show iaas at left
+    show imageAssassin at left
     
-    aas "I am going to go assassinate the man. I got paid a lot!"
+    assassin "I am going to go assassinate the man. I got paid a lot!"
     
     show bgMosque
     
-    show ipi at right
+    show imagePiousman at right
     
-    aas "Here I am! I see you, o pious man!"
+    assassin "Here I am! I see you, o pious man!"
     
-    pi "Hello, who are you?"
+    piousman "Hello, who are you?"
     
-    aas "I am here to kill you!"
+    assassin "I am here to kill you!"
     
-    pi "Please dont! It would only harm you more than it would harm me."
+    piousman "Please dont! It would only harm you more than it would harm me."
     
-    aas "What? How?"
+    assassin "What? How?"
     
-    pi "I don't want your status to decrease in society."
+    piousman "I don't want your status to decrease in society."
     
-    aas "Wow, that's so touching. Alright, fine. I will decide to kill you tomorrow. IF you see me tomorrow, you will die that day. If you do not, consider yourself spared."
+    assassin "Wow, that's so touching. Alright, fine. I will decide to kill you tomorrow. IF you see me tomorrow, you will die that day. If you do not, consider yourself spared."
     
-    pi "Alright, I accept."
+    piousman "Alright, I accept."
     
-    hide ipi
+    hide imagePiousman
     
-    hide iaas
+    hide imageAssassin
     
     show black
     
-    nar "The assassin went to sleep in the cave."
+    narrator "The assassin went to sleep in the cave."
     
     show bgOutside
     
-    nar "He was shown the city in flames. He was scared."
+    narrator "He was shown the city in flames. He was scared."
     
     show black
     
-    nar "He was so scared he decided not to kill the man."
+    narrator "He was so scared he decided not to kill the man."
     
-    nar "He found a cave on the outskirts of town and decided to rest there."
+    narrator "He found a cave on the outskirts of town and decided to rest there."
     
     show black
     
-    nar "Some time passed."
+    narrator "Some time passed."
     
-    show ipi at left
+    show imagePiousman at left
     
-    aas "Wow, what a great nap!"
+    assassin "Wow, what a great nap!"
     
     show bgOutside
     
-    aas "Where is the pious man?"
+    assassin "Where is the pious man?"
     
-    aas "Wow! The city has changed so much!"
+    assassin "Wow! The city has changed so much!"
     
-    nar "Wonderful ending."
+    narrator "Wonderful ending."
 
     return
