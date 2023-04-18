@@ -1,18 +1,18 @@
-Tue Apr 18 03:23:30 2023
+Tue Apr 18 03:50:50 2023
 macOS-10.16-x86_64-i386-64bit
 Ren'Py 8.0.3.22090809
  
 
-Bootstrap to the start of init.init took 0.03s
+Bootstrap to the start of init.init took 0.04s
 Early init took 0.00s
 Loader init took 0.00s
-Loading error handling took 0.08s
-Loading script took 0.93s
+Loading error handling took 0.03s
+Loading script took 0.50s
 Loading save slot metadata. took 0.00s
 Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/qayyuma/Documents/GitHub/VisualNovel/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/qayyuma/Documents/GitHub/VisualNovel/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/qayyuma/Documents/GitHub/VisualNovel/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/Users/qayyuma/Documents/GitHub/VisualNovel/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file)")
-Running init code took 0.07s
-Loading analysis data took 0.00s
+Faled to initialize steam: OSError("dlopen(/Applications/Renpy/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Applications/Renpy/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Applications/Renpy/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/Applications/Renpy/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file)")
+Running init code took 0.04s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to '/Users/qayyuma/Library/RenPy/backups/Lyeba':
@@ -26,8 +26,29 @@ Cleaning stores took 0.00s
 Init translation took 0.02s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
+Analyze screens took 0.01s
 Save screen analysis took 0.01s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.19s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1800, 1169)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1 Pro'
+Version: b'2.1 Metal - 83'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1698, 955) drawable=(3396, 1910)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
